@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 기온"
+        android:textSize="35dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdoG">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hot"
+            android:text="38도 이상"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/twentySeven"
+            android:text="27도 이상" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/twentySix"
+            android:text="23-26도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/twentyTwo"
+            android:text="20-22도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nineTeen"
+            android:text="17-19도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sixTeen"
+            android:text="12-16도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eleven"
+            android:text="10-11도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Nine"
+            android:text="6-9도"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Five"
+            android:text="5도 이하"/>
+
+        <RadioButton
+            android:id="@+id/Cold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-10도 이하" />
+
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWeather"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rdoG"
+            android:layout_alignRight="@id/rdoG"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:text="기상청 바로 가기" />
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rdoG"
+            android:layout_alignLeft="@id/rdoG"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:text="추천 옷차림 보기" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

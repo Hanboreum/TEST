@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="추천 옷차림:겨울 코트,발열 내의,경량 패딩"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/summer1"
+        />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:gravity="center"
+        android:src="@drawable/nine"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="출처:무신사닷컴 www.musinsa.com"/>
+    <Button
+        android:id="@+id/btnBack7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="돌아가기" />
+    <Button
+        android:id="@+id/btnmore7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="코디 더보기" />
+
+</LinearLayout>
